@@ -1,0 +1,6 @@
+Wilhelm Bagcal
+Java solution for exercise 2
+
+Source code for the solution is located in Ford Exercise/src/ford_credit.java
+To compile, open in directory and run: "javac ford_credit.java" when source code directory is open
+To run, run: "java ford_credit" and type any number!
