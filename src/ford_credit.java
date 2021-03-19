@@ -38,8 +38,8 @@ class Manhattan_Distance{
             int sum = 0;
 
             for (int j = i + 1; j < N; j++) {
-                // to find the distance, use:
-                // |x1 - x2| + |y1 - y2|
+                // to find the distance, use this formula: |x1 - x2| + |y1 - y2|
+                // as described by the problem statement
                 sum = Math.abs(A.get(i).x - A.get(j).x)  + Math.abs(A.get(i).y - A.get(j).y);
                 // set the distance
                 maximum = sum;
